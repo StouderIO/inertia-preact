@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/StouderIO/inertia-preact/compare/v0.1.3...v0.1.4) (2023-12-24)
+
+
+### Bug Fixes
+
+* install dev node types ([2dc3cff](https://github.com/StouderIO/inertia-preact/commit/2dc3cff6520215ed686981d0374e1cc3d854c7ae))
+
 ## [0.1.3](https://github.com/StouderIO/inertia-preact/compare/v0.1.2...v0.1.3) (2023-12-24)
 
 
