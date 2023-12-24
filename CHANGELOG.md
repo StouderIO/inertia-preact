@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/StouderIO/inertia-preact/compare/v0.1.2...v0.1.3) (2023-12-24)
+
+
+### Bug Fixes
+
+* install required dependency ([2a2d405](https://github.com/StouderIO/inertia-preact/commit/2a2d405374e4cf9ced6b7eee5fe8cb6e29874842))
+
 ## [0.1.2](https://github.com/StouderIO/inertia-preact/compare/v0.1.1...v0.1.2) (2023-12-24)
 
 
