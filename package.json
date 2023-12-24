@@ -1,6 +1,6 @@
 {
   "name": "@stouder-io/inertia-preact",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "MIT",
   "description": "The Preact adapter for Inertia.js",
   "author": "Xavier Stouder <xavier@stouder.io>",
@@ -85,9 +85,13 @@
     ],
     "rules": {
       "no-unused-vars": "off",
-      "@typescript-eslint/no-unused-vars": ["error"],
+      "@typescript-eslint/no-unused-vars": [
+        "error"
+      ],
       "no-redeclare": "off",
-      "@typescript-eslint/no-redeclare": ["error"],
+      "@typescript-eslint/no-redeclare": [
+        "error"
+      ],
       "react-hooks/rules-of-hooks": "off"
     },
     "settings": {
