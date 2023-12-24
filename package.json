@@ -39,13 +39,14 @@
   },
   "scripts": {
     "dev": "node build.js --watch",
-    "build": "npm run clean && node build.js && tsc --emitDeclarationOnly",
+    "build": "pnpm run clean && node build.js && tsc --emitDeclarationOnly",
     "clean": "rimraf types && rimraf dist",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "pnpm run build"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
+    "axios": "^1.6.2",
     "esbuild": "^0.16.13",
     "esbuild-node-externals": "^1.12.0",
     "eslint": "^8.56.0",
