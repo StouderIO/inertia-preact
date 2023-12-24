@@ -18,7 +18,6 @@ jobs:
         id: release
         with:
           release-type: node
-          bump-minor-pre-major: true
       - name: Checkout
         uses: actions/checkout@v4
         if: ${{ steps.release.outputs.release_created }}
