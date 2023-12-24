@@ -50,7 +50,7 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
 
       - name: Install dependencies
-        run: pnpm ci
+        run: pnpm i --frozen-lockfile
         if: ${{ steps.release.outputs.release_created }}
 
       - name: Publish
