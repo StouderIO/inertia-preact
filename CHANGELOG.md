@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/StouderIO/inertia-preact/compare/v0.1.3...v0.1.4) (2023-12-25)
+
+
+### Bug Fixes
+
+* correct react to preact type conversion ([bdfef4e](https://github.com/StouderIO/inertia-preact/commit/bdfef4eb8fb779e978e1ed387b731df96bc135ab))
+
 ## [0.1.3](https://github.com/StouderIO/inertia-preact/compare/v0.1.2...v0.1.3) (2023-12-25)
 
 
