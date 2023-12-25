@@ -1,6 +1,6 @@
 {
   "name": "@stouder-io/inertia-preact",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "description": "The Preact adapter for Inertia.js",
   "author": "Xavier Stouder <xavier@stouder.io>",
