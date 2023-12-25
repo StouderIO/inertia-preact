@@ -1,8 +1,4 @@
-import React, {
-  ComponentChildren,
-  FunctionComponent,
-  toChildArray,
-} from 'preact'
+import { cloneElement, ComponentChildren, FunctionComponent } from 'preact'
 import { useEffect, useMemo, useContext } from 'preact/hooks'
 import HeadContext from './HeadContext'
 
@@ -79,7 +75,7 @@ const Head: InertiaHead = function ({ children, title }) {
   }
 
   function ensureNodeHasInertiaProp(node) {
-    return React.cloneElement(node, {
+    return cloneElement(node, {
       inertia:
         node.props['head-key'] !== undefined ? node.props['head-key'] : '',
     })
@@ -90,7 +86,7 @@ const Head: InertiaHead = function ({ children, title }) {
   }
 
   function renderNodes(nodes) {
-    const computed = toChildArray(nodes)
+    const computed = nodes
       .filter((node) => node)
       .map((node) => renderNode(node))
     if (title && !computed.find((tag) => tag.startsWith('<title'))) {
