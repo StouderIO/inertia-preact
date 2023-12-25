@@ -4,6 +4,7 @@
   "license": "MIT",
   "description": "The Preact adapter for Inertia.js",
   "author": "Xavier Stouder <xavier@stouder.io>",
+  "private": false,
   "repository": {
     "type": "git",
     "url": "https://github.com/StouderIO/inertia-preact.git"
