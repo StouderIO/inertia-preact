@@ -1,10 +1,14 @@
-import React, { FunctionComponent, toChildArray, VNode } from 'preact'
+import React, {
+  ComponentChildren,
+  FunctionComponent,
+  toChildArray,
+} from 'preact'
 import { useEffect, useMemo, useContext } from 'preact/hooks'
 import HeadContext from './HeadContext'
 
 type InertiaHeadProps = {
   title?: string
-  children?: VNode
+  children?: ComponentChildren
 }
 
 type InertiaHead = FunctionComponent<InertiaHeadProps>
