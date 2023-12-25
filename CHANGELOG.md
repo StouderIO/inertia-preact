@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.1.1](https://github.com/StouderIO/inertia-preact/compare/v0.1.4...v0.1.1) (2023-12-25)
+
+
+### Bug Fixes
+
+* access public on github workflow ([b720c9a](https://github.com/StouderIO/inertia-preact/commit/b720c9a0c1f65b6231ff1d0515de22286152961f))
+* rework releases ([691320e](https://github.com/StouderIO/inertia-preact/commit/691320e855d44be5be741cd36180027916f97cc9))
+* set as public ([e89bdff](https://github.com/StouderIO/inertia-preact/commit/e89bdffad3826e9332ec00c6fb431ff5413093f8))
+
+
+### Miscellaneous Chores
+
+* release 0.1.1 ([6fe1271](https://github.com/StouderIO/inertia-preact/commit/6fe1271d0123f3f4bd9b711ba81bb2e0bfd35b40))
+
 ## [0.1.4](https://github.com/StouderIO/inertia-preact/compare/v0.1.3...v0.1.4) (2023-12-24)
 
 
