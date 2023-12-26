@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.6](https://github.com/StouderIO/inertia-preact/compare/v0.1.5...v0.1.6) (2023-12-26)
+
+
+### Bug Fixes
+
+* update readme ([8ac77df](https://github.com/StouderIO/inertia-preact/commit/8ac77df3c557bb7d9f46f1dfe824c73b1cc05727))
+
 ## [0.1.5](https://github.com/StouderIO/inertia-preact/compare/v0.1.4...v0.1.5) (2023-12-26)
 
 
