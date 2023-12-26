@@ -3,7 +3,7 @@
   "version": "0.1.4",
   "license": "MIT",
   "description": "The Preact adapter for Inertia.js",
-  "author": "Xavier Stouder <xavier@stouder.io>",
+  "author": "Xavier Stouder <xavier@stouder.io> (https://stouder.io)",
   "private": false,
   "repository": {
     "type": "git",
@@ -12,6 +12,16 @@
   "bugs": {
     "url": "https://github.com/StouderIO/inertia-preact/issues"
   },
+  "keywords": [
+    "inertia",
+    "inertiajs",
+    "inertiajs-adapter",
+    "laravel",
+    "adonis",
+    "preact",
+    "preactjs",
+    "ssr"
+  ],
   "files": [
     "dist",
     "types"
