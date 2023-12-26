@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/StouderIO/inertia-preact/assets/2575182/3171a67c-b971-483a-8448-92f9a6f55c6a.png" />
+  <img src="https://raw.githubusercontent.com/StouderIO/inertia-preact/main/.github/images/header.png" />
   <h3>@stouder-io/inertia-preact</h3>
   <p>The <a href="https://preactjs.com/">Preact</a> adapter for <a href="https://inertiajs.com/">Inertia.js</a>.</p>
   <a href="https://www.npmjs.com/package/@stouder-io/inertia-preact">
