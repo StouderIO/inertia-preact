@@ -94,9 +94,13 @@ export default async function createInertiaApp<
   const isServer = typeof window === 'undefined'
   const el: HTMLElement | null = isServer ? null : document.getElementById(id)
   const initialPage = page || JSON.parse(el.dataset.page)
-  const resolveComponent = (name) =>
-    // @ts-expect-error default must exist
-    Promise.resolve(resolve(name)).then((module) => module.default || module)
+  const resolveComponent = (name: string) =>
+    Promise.resolve(resolve(name))
+      // @ts-expect-error default must exist
+      .then((module) => module.default || module)
+      .catch(() => {
+        throw new Error(`Cannot resolve component "${name}".`)
+      })
 
   let head = []
 
