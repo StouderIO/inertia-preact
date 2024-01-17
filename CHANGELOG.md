@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.7](https://github.com/StouderIO/inertia-preact/compare/v0.1.6...v0.1.7) (2024-01-17)
+
+
+### Bug Fixes
+
+* properly throw an error if component cannot be resolved ([5024248](https://github.com/StouderIO/inertia-preact/commit/5024248fcbb1283f37c0d81854aca3749efb2fa6))
+
 ## [0.1.6](https://github.com/StouderIO/inertia-preact/compare/v0.1.5...v0.1.6) (2023-12-26)
 
 
