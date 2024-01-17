@@ -10,6 +10,7 @@ import {
 import { h, JSX } from 'preact'
 import { useCallback } from 'preact/hooks'
 import { forwardRef } from 'preact/compat'
+import type { CancelTokenSource } from 'axios'
 
 const noop = () => undefined
 
@@ -24,7 +25,7 @@ interface BaseInertiaLinkProps {
   preserveState?: PreserveStateOption
   replace?: boolean
   only?: string[]
-  onCancelToken?: (cancelToken: import('axios').CancelTokenSource) => void
+  onCancelToken?: (cancelToken: CancelTokenSource) => void
   onBefore?: () => void
   onStart?: () => void
   onProgress?: (progress: Progress) => void
