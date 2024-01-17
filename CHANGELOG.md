@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.8](https://github.com/StouderIO/inertia-preact/compare/v0.1.7...v0.1.8) (2024-01-17)
+
+
+### Bug Fixes
+
+* import only needed axios type ([eae933a](https://github.com/StouderIO/inertia-preact/commit/eae933a55430670a07bf09d519e715af65951a70))
+
 ## [0.1.7](https://github.com/StouderIO/inertia-preact/compare/v0.1.6...v0.1.7) (2024-01-17)
 
 
